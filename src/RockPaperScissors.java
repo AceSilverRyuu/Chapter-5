@@ -14,19 +14,14 @@ public class RockPaperScissors {
 
         int random = (int) (Math.random() * 3 + 1);
 
-        if (userChoice == 1)
-    {
-        if (random == 1)
-        {
-            System.out.println("Tie");
-        }
-        else if (random == 2)
-        {
-            System.out.println("Lose");
-        }
-        else
-        {
-            System.out.println("Win");
+        if (userChoice == 1) {
+            if (random == 1) {
+                System.out.println("Tie");
+            } else if (random == 2) {
+                System.out.println("Lose");
+            } else {
+                System.out.println("Win");
+            }
         }
         if (userChoice == 2)
         {
@@ -47,11 +42,11 @@ public class RockPaperScissors {
         {
             if (random == 1)
             {
-                System.out.println("win");
+                System.out.println("lose");
             }
             else if (random == 2)
             {
-                System.out.println("Lose");
+                System.out.println("win");
             }
             else
             {
@@ -59,5 +54,5 @@ public class RockPaperScissors {
             }
         }
     }
-    }
 }
+
