@@ -7,7 +7,7 @@ public class RockPaperScissors {
 
         Scanner input = new Scanner (System.in);
 
-        int userChoice = 0;
+        int userChoice = 1;
         int winTotal = 0;
         int loseTotal = 0;
         int tieTotal = 0;
@@ -16,10 +16,10 @@ public class RockPaperScissors {
 
 
 
-        while(userChoice != 999){
+        while(totalGamesPlayed <= 1000){
 
-            System.out.println("Please choose a number between 1 and 3, 1 = rock, 2 = paper, 3 = scissors.");
-            userChoice = input.nextInt();
+//            System.out.println("Please choose a number between 1 and 3, 1 = rock, 2 = paper, 3 = scissors.");
+//            userChoice = input.nextInt();
             int random = (int) (Math.random() * 3 + 1);
         if (userChoice == 1) {
             if (random == 1) {
