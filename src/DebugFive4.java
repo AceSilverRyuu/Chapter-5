@@ -22,7 +22,7 @@ public class DebugFive4 {
          else
         if(three > one && three > two && three > four)
             output = "Highest is " + three;
-        else 
+        else
             output = "Highest is " + four;
         JOptionPane.showMessageDialog(null, output);
     }
